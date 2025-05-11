@@ -1,0 +1,45 @@
+.glow{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+}
+
+.glow:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 8px rgba(79, 77, 72, 0.7);
+
+}
+
+.mainCard {
+    padding: 2em;
+    width: 80%;
+    margin-top: 3%;
+    background-color: #2e57800a !important;
+    backdrop-filter:blur(20px);
+    border-radius: 40px;
+    color: white;
+    margin-bottom: 3%;
+  }
+  
+  .row{
+    margin-bottom: 1%;
+  }
+
+  .animePage{
+    background-image: url(assets/page_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    width:100%;
+  }
+
+.loader-container {
+    height: 100vh;            /* full viewport height */
+    display: flex;
+    justify-content: center;  /* center horizontally */
+    align-items: center;      /* center vertically */
+    background-color: transparent;  /* optional */
+    width:100%;
+}
